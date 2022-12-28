@@ -1,0 +1,56 @@
+.Wellcome{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #212529;
+}
+
+.Wellcome .Wellcome-inner{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Wellcome .Wellcome-inner h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.Wellcome .Wellcome-inner p{
+    color: #777a7c;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.Wellcome .Wellcome-inner div{
+    display: flex;
+    gap: 20px;
+}
+
+.Wellcome .Wellcome-inner div a{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.Wellcome .Wellcome-inner div a:first-child{
+    background-color: #0d6efd;
+}
+.Wellcome .Wellcome-inner div a:last-child{
+    border: 1px solid #fff;
+}
+
+.Wellcome .Wellcome-img{
+    background-image: url('https://dummyimage.com/600x400/343a40/6c757d');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+}
