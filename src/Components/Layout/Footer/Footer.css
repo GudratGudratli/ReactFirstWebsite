@@ -1,0 +1,10 @@
+.Home{
+    background-color: #212529;
+}
+footer div:first-child{
+    color: #fff;
+    font-size: 14px;
+}
+a{
+    text-decoration: underline white solid;
+}

@@ -1,0 +1,26 @@
+.Home{
+    background-color: #212529;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav div:first-child{
+    color: #fff;
+    font-size: 24px;
+}
+
+@media screen and(max-width:900px) {
+    .navbar .navbar-brand{
+        display: flex;
+    }
+}
+@media screen and(min-width:900px) {
+    .navbar .navbar-brand{
+        display: none;
+    }
+}
