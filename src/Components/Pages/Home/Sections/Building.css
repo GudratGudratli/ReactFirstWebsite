@@ -1,0 +1,42 @@
+.Building{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Building .Header{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.Building .Items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 45%;
+}
+
+.Building .Items .Item{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.Building .Items .Item i{
+    width: 54px;
+    height: 54px;
+    font-size: 44px;
+    background-color: #297ffd;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Building .Items .Item h3{
+    font-size: 24px;
+    font-weight: 600;
+}
